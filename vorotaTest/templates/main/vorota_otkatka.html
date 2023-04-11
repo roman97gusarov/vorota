@@ -1,0 +1,296 @@
+{% extends "main/base.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+{% block title %}<title>Ворота откатные в Минске</title>{% endblock %}
+
+<body>
+
+
+{% block content %}
+    <div class="main-wrapper">
+
+        <!-- 
+        =============================================
+            Page Banner  Section
+        ============================================== 
+        -->
+        <section class="single-hero-slide gray-overlay bg-cover bg-top d-flex align-items-center"
+                 style="background-image: url({% static 'assets/img/vorota_otkatka.jpg' %})">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="page-banner">
+                            <h2>Откатные Ворота</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- /.page-banner-wrap -->
+
+        <section class="single-product-description section-padding pt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="product-description-tab">
+                            <ul class="nav nav-pills " id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="pill" href="#tab1" role="tab">
+                                        Стоимость и варианты заполнения
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#tab2" role="tab">
+                                        Описание
+                                    </a>
+                                </li>
+                            </ul> <!-- /.nav nav-pills -->
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="tab1" role="tabpanel">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="single-product-item">
+                                                <div class="product_thumb">
+                                                    <img src="{% static 'assets/img/shop/karkas-otkatnyh-vorot.jpg' %}"
+                                                         alt="p1">
+                                                    <a href="tel:+375295262070">Позвонить</a>
+                                                </div>
+                                                <h4><a href="#">Каркас откатных ворот без заполнения</a></h4>
+                                                <p>Каркас без заполнения<br>
+                                                    Фурнитура — Ролтэк, КАВ или Алютех<br>
+                                                    Труба 60*40*2мм, грунт, краска</p>
+                                                <br>
+                                                <span>От 1110р</span>
+                                            </div> <!-- /.single-product-item -->
+                                        </div> <!-- /.col-md-6 col-lg-3 -->
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="single-product-item">
+                                                <div class="product_thumb">
+                                                    <img src="{% static 'assets/img/shop/otkatnye-vorota-s-profnastilom.jpg' %}"
+                                                         alt="p1">
+                                                    <a href="tel:+375295262070">Позвонить</a>
+                                                </div>
+                                                <h4><a href="#">Откатные ворота с металлопрофилем</a></h4>
+                                                <p>Каркас ворот с профнастилом.<br>
+                                                    Фурнитура — Ролтэк, КАВ или Алютех<br>
+                                                    Труба 60*40*2мм, грунт, краска, профнастил </p>
+                                                <span>От 1250р</span>
+                                            </div> <!-- /.single-product-item -->
+                                        </div> <!-- /.col-md-6 col-lg-3 -->
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="single-product-item">
+                                                <div class="product_thumb">
+                                                    <img src="{% static 'assets/img/shop/otkatnye-vorota-s-shtaketnikom-odnostoronnim.jpg' %}"
+                                                         alt="p1">
+                                                    <a href="tel:+375295262070">Позвонить</a>
+                                                </div>
+                                                <h4><a href="#">Откатные ворота с металлоштакетником</a></h4>
+                                                <p>Каркас ворот с штакетником <br>
+                                                    Фурнитура — Ролтэк, КАВ или Алютех <br>
+                                                    Труба 60*40*2мм, грунт, краска</p>
+                                                <span>От 1260р</span>
+                                            </div> <!-- /.single-product-item -->
+                                        </div> <!-- /.col-md-6 col-lg-3 -->
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="single-product-item">
+                                                <div class="product_thumb">
+                                                    <img src="{% static 'assets/img/shop/otkatnye-vorota-s-zhalyuzi.jpg' %}"
+                                                         alt="p1">
+                                                    <a href="tel:+375295262070">Позвонить</a>
+                                                </div>
+                                                <h4><a href="#">Откатные ворота с жалюзи металлическими</a></h4>
+                                                <p>Каркас ворот с металлическими жалюзи.<br>
+                                                    Фурнитура — Ролтэк, КАВ или Алютех<br>
+                                                    Труба (60)80*40*2мм, грунт, краска</p>
+                                                <span>От 1480р</span>
+                                            </div> <!-- /.single-product-item -->
+                                        </div> <!-- /.col-md-6 col-lg-3 -->
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="single-product-item">
+                                                <div class="product_thumb">
+                                                    <img src="{% static 'assets/img/shop/otkatney-vorota-s-rancho.jpg' %}"
+                                                         alt="p1">
+                                                    <a href="tel:+375295262070">Позвонить</a>
+                                                </div>
+                                                <h4><a href="#">Откатные ворота с ранчо металлическими</a></h4>
+                                                <p>Каркас ворот с ранчо односторонним.<br>
+                                                    Фурнитура — Ролтэк, КАВ или Алютех <br>
+                                                    Труба 60*40*2мм, грунт, краска</p>
+                                                <span>От 1600р</span>
+                                            </div> <!-- /.single-product-item -->
+                                        </div> <!-- /.col-md-6 col-lg-3 -->
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="single-product-item">
+                                                <div class="product_thumb">
+                                                    <img src="{% static 'assets/img/shop/otkatney-vorota-s-derevyannym-shtaketnikom.jpg' %}"
+                                                         alt="p1">
+                                                    <a href="tel:+375295262070">Позвонить</a>
+                                                </div>
+                                                <h4><a href="#">Откатные ворота с деревом</a></h4>
+                                                <p>Каркас ворот с деревянным заполнением<br>
+                                                    Фурнитура — Ролтэк, КАВ или Алютех <br>
+                                                    Труба 60*40*2мм, грунт, краска</p>
+                                                <span>От 1450р</span>
+                                            </div> <!-- /.single-product-item -->
+                                        </div> <!-- /.col-md-6 col-lg-3 -->
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="single-product-item">
+                                                <div class="product_thumb">
+                                                    <img src="{% static 'assets/img/shop/kovannye-otkatnye-vorota.jpg' %}"
+                                                         alt="p1">
+                                                    <a href="tel:+375295262070">Позвонить</a>
+                                                </div>
+                                                <h4><a href="#">Откатные ворота с коваными элементами</a></h4>
+                                                <p>Каркас сварной с коваными элементами<br>
+                                                    Фурнитура — Ролтэк, КАВ или Алютех <br>
+                                                    Труба 60*40*2мм, грунт, краска</p>
+                                                <span>От 2200р</span>
+                                            </div> <!-- /.single-product-item -->
+                                        </div> <!-- /.col-md-6 col-lg-3 -->
+                                    </div>
+                                    <div class="col-lg-10 offset-lg-1 col-12 text-center">
+                                        <div class="what-we-do-title">
+                                            <br>
+                                            <br>
+                                            <h4>Цены на откатные ворота указаны за каркас с
+                                                комплектующими
+                                                для
+                                                монтажа и заполнения</h4>
+                                            <h4>Цена на монтаж откатных ворот:</h4>
+                                            <ul>
+                                                <h4>Монтаж откатных ворот на заранее подготовленное бетонное основание —
+                                                    <strong>от
+                                                        250
+                                                        руб.</strong></h4>
+                                                <h4>Заливка бетонного основания с материалами и доставкой бетона —
+                                                    <strong>от
+                                                        650 руб.</strong></h4>
+                                                <h4>Автоматика с монтажом и настройкой — <strong>от 780 руб.</strong>
+                                                </h4>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade show" id="tab2" role="tabpanel">
+                                    <p>Откатные ворота представляют собой полностью независимою конструкцию.
+                                        Которая состоит из бетонного основания на него устанавливаются две роликовые
+                                        опоры
+                                        (по 8 роликов на каждой), а само полотно откатных ворот находиться
+                                        над уровнем земли на расстоянии 10 сантиметров. По сравнению с распашными
+                                        откатные ворота
+                                        не подвержены перекосам в зимний период и не требует никакого ухода и
+                                        смазки.
+                                        Откатные ворота сами прочищают себе путь в заснеженный период, что не
+                                        требует
+                                        предварительной очистки снега и меньше подвержены ветровым нагрузкам.
+                                    </p>
+                                    <img src="{% static 'assets/img/wedo/shema_otkatnyh_vorot.jpg' %}" alt="">
+                                    <h3>Долгий срок службы</h3>
+                                    <p> Благодаря качественным комплектующим и накопленному опыту за долгие годы,
+                                        мы производим надежные откатные ворота которые способны проработать минимум
+                                        30
+                                        000 циклов.</p>
+                                    <h3>Прочность конструкции</h3>
+                                    <p>Применение качественной шины из стали S355 пиковая нагрузка в два раза выше
+                                        обычной,
+                                        правильная геометрия ворот. Отсутствие прогибов и перекосов увеличивают
+                                        ресурс
+                                        использования откатных ворот</p>
+                                    <h3>Профессиональный монтаж</h3>
+                                    <p>Не качественный монтаж откатных ворот может привести к быстрому износу
+                                        роликовых
+                                        опор
+                                        и в дальнейшем к полной переустановке ворот и покупке нового комплекта, по
+                                        этому
+                                        доверяйте
+                                        установку только профессионалам.</p>
+                                    <h3>Бесшумная работа</h3>
+                                    <p>Благодаря качественным комплектующим и Итальянской автоматике Nice.
+                                        Соблюдаются минимальные зазоры среди трущихся деталей, что в комплексе дает
+                                        тихую почти бесшумную работу откатных ворот.</p>
+                                    <h3>Универсальность</h3>
+                                    <p>Вариант установки встречных откатных ворот дает возможность закрывать проемы
+                                        до
+                                        15 метров.</p>
+                                    <p>Материал заполнение может быть любым — профлист, евроштакетник, доска,
+                                        сэндвич-панели и так далее.
+                                        Ворота можно оснастить фотоэлементами, камерой, осветительными приборами и
+                                        так
+                                        далее.
+                                        Откатные ворота зачастую выполняются в стандартном дизайне, однако можно
+                                        выполнить любые пожелания клиента.
+                                        Это позволяет подобрать индивидуальное решение для потребностей и
+                                        вкусов.</p>
+                                </div>
+                            </div>
+                        </div> <!-- /.tab-content -->
+                    </div>
+                </div> <!-- /.col-md-12 col-lg-12 -->
+            </div>
+        </section> <!-- /.single-product-description product-des-tab  -->
+
+        <section class="testimonial-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12 text-center">
+                        <div class="what-we-do-title">
+                            <span>Отзывы</span>
+                            <h2>Наши клиенты говорят о нас</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4  col-sm-12">
+                        <div class="single-testimonial">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Заказывали откатные ворота с автоматикой, приехал специалист все рассказал,
+                                проконсультировал.
+                                Заключили договор и ребята приступили к работам. Все сделали быстро и качественно, очень
+                                понравился подход к клиентам.
+                            </p>
+                            <div class="client-details d-flex align-items-center">
+                                <div class="client-info">
+                                    <h4>Виктор</h4>
+                                    <span>не авторизирован</span>
+                                </div>
+                            </div>
+                        </div> <!-- /.ssingle-testimonial -->
+                    </div> <!-- /.col-lg-4  col-sm-12 -->
+                    <div class="col-lg-4  col-sm-12">
+                        <div class="single-testimonial">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Все сделали в сроки и качественно. Очень рад, что выбрал откатные ворота, не требуют
+                                обслуживания и прекрасно работают </p>
+                            <div class="client-details d-flex align-items-center">
+                                <div class="client-info">
+                                    <h4>Алексей</h4>
+                                    <span>не авторизирован</span>
+                                </div>
+                            </div>
+                        </div> <!-- /.ssingle-testimonial -->
+                    </div> <!-- /.col-lg-4  col-sm-12 -->
+                    <div class="col-lg-4  col-sm-12">
+                        <div class="single-testimonial">
+                            <i class="fas fa-quote-left"></i>
+                            <p> Воротами пользуюсь уже второй год, никаких нареканий нет.
+                                    Работают тихо и плавно. За время пользования пока не выявил никаких недостатков.
+                            </p>
+                            <div class="client-details d-flex align-items-center">
+                                <div class="client-info">
+                                    <h4>Максим</h4>
+                                    <span>не авторизирован</span>
+                                </div>
+                            </div>
+                        </div> <!-- /.ssingle-testimonial -->
+                    </div> <!-- /.col-lg-4  col-sm-12 -->
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+{% endblock %}
+</body>
+</html>

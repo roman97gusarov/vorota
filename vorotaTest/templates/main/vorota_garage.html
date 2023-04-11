@@ -1,0 +1,173 @@
+{% extends "main/base.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+{% block title %}<title>Ворота гаражные под ключ в Минске</title>{% endblock %}
+
+<body>
+
+
+{% block content %}
+    <div class="main-wrapper">
+
+        <!--
+        =============================================
+            Page Banner  Section
+        ==============================================
+        -->
+
+        <section class="single-hero-slide gray-overlay bg-cover bg-top d-flex align-items-center"
+                 style="background-image: url('{% static 'assets/img/slide/vorota3.jpg' %}')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1>Гаражные ворота</h1>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- /.single-her -->
+
+
+        <!--
+        =============================================
+            Product  Details - Shop
+        ==============================================
+        -->
+
+
+        <section class="single-product-description section-padding pt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="product-description-tab">
+                            <ul class="nav nav-pills " id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="pill" href="#tab1" role="tab">
+                                        Стоимость и варианты заполнения
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#tab2" role="tab">
+                                        Trend
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#tab3" role="tab">
+                                        Prestige
+                                    </a>
+                                </li>
+                            </ul> <!-- /.nav nav-pills -->
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="tab1" role="tabpanel">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="single-product-item">
+                                                <div class="product_thumb">
+                                                    <img src="{% static 'assets/img/shop/garage-trend.jpg' %}"
+                                                         alt="p1">
+                                                    <a href="tel:+375295262070">Позвонить</a>
+                                                </div>
+                                                <h4><a href="#">Секционные ворота для гаража ALUTECH Trend</a></h4>
+                                                <p>Комплект без автоматики</p>
+                                                <br>
+                                                <span>От 1500р</span>
+                                            </div> <!-- /.single-product-item -->
+                                        </div> <!-- /.col-md-6 col-lg-3 -->
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="single-product-item">
+                                                <div class="product_thumb">
+                                                    <img src="{% static 'assets/img/shop/garage-prestige.jpg' %}"
+                                                         alt="p1">
+                                                    <a href="tel:+375295262070">Позвонить</a>
+                                                </div>
+                                                <h4><a href="#">Секционные ворота для гаража ALUTECH Prestige</a></h4>
+                                                <p>Комплект без автоматики</p>
+                                                <br>
+                                                <span>От 1800р</span>
+                                            </div> <!-- /.single-product-item -->
+                                        </div> <!-- /.col-md-6 col-lg-3 -->
+
+
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="tab2" role="tabpanel">
+
+
+                                </div>
+                                 <div class="tab-pane fade show" id="tab3" role="tabpanel">
+
+
+
+                                </div>
+                            </div>
+                        </div> <!-- /.tab-content -->
+                    </div>
+                </div> <!-- /.col-md-12 col-lg-12 -->
+            </div>
+        </section> <!-- /.single-product-description product-des-tab  -->
+
+        <!--
+        =============================================
+            Related products Section
+        ==============================================
+        -->
+        {#        <section class="related-products-wrapper section-padding pt-0">#}
+        {#            <div class="container">#}
+        {#                <h2>Related products </h2>#}
+        {#                <div class="row">#}
+        {#                    <div class="col-md-6 col-lg-3">#}
+        {#                        <div class="single-product-item">#}
+        {#                            <div class="product_thumb">#}
+        {#                                <img src="assets/img/shop/p1.jpg" alt="p1">#}
+        {#                                <a href="#">Add to Cart</a>#}
+        {#                            </div>#}
+        {#                            <h4><a href="#">Brush</a></h4>#}
+        {#                            <span>$12.00</span>#}
+        {#                        </div> <!-- /.single-product-item -->#}
+        {#                    </div> <!-- /.col-md-6 col-lg-3 -->#}
+        {#                    <div class="col-md-6 col-lg-3">#}
+        {#                        <div class="single-product-item">#}
+        {#                            <div class="product_thumb">#}
+        {#                                <img src="assets/img/shop/p2.jpg" alt="p1">#}
+        {#                                <a href="#">Add to Cart</a>#}
+        {#                            </div>#}
+        {#                            <h4><a href="#">Nailer</a></h4>#}
+        {#                            <span>$12.00</span>#}
+        {#                        </div> <!-- /.single-product-item -->#}
+        {#                    </div> <!-- /.col-md-6 col-lg-3 -->#}
+        {#                    <div class="col-md-6 col-lg-3">#}
+        {#                        <div class="single-product-item">#}
+        {#                            <div class="product_thumb">#}
+        {#                                <img src="assets/img/shop/p3.jpg" alt="p1">#}
+        {#                                <a href="#">Add to Cart</a>#}
+        {#                            </div>#}
+        {#                            <h4><a href="#">Miter</a></h4>#}
+        {#                            <span>$12.00</span>#}
+        {#                        </div> <!-- /.single-product-item -->#}
+        {#                    </div> <!-- /.col-md-6 col-lg-3 -->#}
+        {#                    <div class="col-md-6 col-lg-3">#}
+        {#                        <div class="single-product-item">#}
+        {#                            <div class="product_thumb">#}
+        {#                                <img src="assets/img/shop/p4.jpg" alt="p1">#}
+        {#                                <a href="#">Add to Cart</a>#}
+        {#                            </div>#}
+        {#                            <h4><a href="#">Power tool</a></h4>#}
+        {#                            <span>$12.00</span>#}
+        {#                        </div> <!-- /.single-product-item -->#}
+        {#                    </div> <!-- /.col-md-6 col-lg-3 -->#}
+        {#                </div>#}
+        {#            </div>#}
+        {#        </section>#}
+
+
+        <!--
+        =============================================
+            Contact Info Section
+        ==============================================
+        -->
+    </div>
+
+{% endblock %}
+</body>
+</html>

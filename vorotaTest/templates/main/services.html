@@ -1,0 +1,260 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block title %}<title>Услуги</title>{% endblock %}
+
+
+{% block content %}
+
+    <section class="page-banner-wrap bg-contain bg-bottom d-flex align-items-center"
+             style="background-image: url('{% static 'assets/img/page_banner_bg.png' %}')">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="page-banner">
+                        <span>Кто мы</span>
+                        <h2>Наши Услуги</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- /.page-banner-wrap -->
+
+    <!--
+    =============================================
+        What We Do
+    ==============================================
+    -->
+    <section class="what-we-do section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 col-12 text-center">
+                    <div class="what-we-do-title">
+                        <span>Что мы делаем</span>
+                        <h2>Мы занимаемся производсвом воротных систем и установкой <span>под ключ.</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="single-we-do">
+                        <img src="{% static 'assets/img/wedo/shema_otkatnyh_vorot.jpg' %}" alt="">
+                        <h3><a href="/otkatka">Откатные ворота</a></h3>
+                        <p>У нас вы можете заказать откатные ворота в любом дизайне и исполнении, наши специалист
+                            проконсультируют вас по любым вопросам.</p>
+                    </div> <!-- /.single-we-do -->
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="single-we-do">
+                        <img src="{% static 'assets/img/wedo/shema_raspashka.jpg' %}" alt="">
+                        <h3><a href="/raspashka">Распашные ворота</a></h3>
+                        <p>У нас вы можете заказать распашные ворота в любом дизайне который подойдет под дизайн вашего
+                            забора.</p>
+                    </div> <!-- /.single-we-do -->
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="single-we-do">
+                        <img src="{% static 'assets/img/wedo/shema_rolet.jpg' %}" alt="">
+                        <h3><a href="/garage">Гаражные ворота</a></h3>
+                        <p>У нас вы можете заказать гаражные ворота любого дизайна подходящие под фасад вашего
+                            дома. </p>
+                    </div> <!-- /.single-we-do -->
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="single-we-do">
+                        <img src="{% static 'assets/img/wedo/shema_kalitka.jpg' %}" alt="">
+                        <h3><a href="/kalitka">Калитка</a></h3>
+                        <p>Мы изготовим для вас калитку по вашему дизайну и пожеланиям</p>
+                    </div> <!-- /.single-we-do -->
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="single-we-do">
+                        <img src="{% static 'assets/img/icons/zamer.jpg' %}" alt="">
+                        <h3>Выезд замерщика</h3>
+                        <p>Наш специалист выезжает к вам для проведения консультации на месте так как все объекты
+                            уникальны, производит замеры, а так же вы можете на месте заключить договор</p>
+                    </div> <!-- /.single-we-do -->
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="single-we-do">
+                        <img src="{% static 'assets/img/icons/proizvodstvo.jpg' %}" alt="">
+                        <h3>Собственное производство</h3>
+                        <p>Наши профессиональные сварщики с 15 летним опытом, изготовят вам самую надежную систему
+                            ворот</p>
+                    </div> <!-- /.single-we-do -->
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="single-we-do">
+                        <img src="{% static 'assets/img/icons/mantag.jpg' %}" alt="">
+                        <h3>Монтаж</h3>
+                        <p>Команда профессиональных монтажников выполнит свою работы в лучшем виде и учтут все пожелания
+                            заказчика</p>
+                    </div> <!-- /.single-we-do -->
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="single-we-do">
+                        <img src="{% static 'assets/img/icons/skidki.jpg' %}" alt="">
+                        <h3>Скидки</h3>
+                        <p>У нас всегда действуют акции и скидки при больших объемах, а так же подарки нашим
+                            клиентам</p>
+                    </div> <!-- /.single-we-do -->
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+            </div>
+        </div>
+    </section> <!-- /.what-we-do -->
+
+
+    <!--
+    =============================================
+       Call to Action
+    ==============================================
+    -->
+    <section class="call-to-action-form section-padding text-white">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="call-to-form">
+                        <h2>Получить обратную связь</h2>
+                        <form action="#">
+                            <input type="text" placeholder="Имя">
+                            <input type="text" placeholder="Фамилия">
+                            <textarea name="message" placeholder="Как мы можем вам помочь?"></textarea>
+                            <button class="submit_btn theme_btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+                {#                <div class="col-lg-5 offset-lg-1 col-md-12">#}
+                {#                    <div class="call-to-video d-flex align-items-center justify-content-center"#}
+                {#                         style="background-image: url({% static 'assets/img/callto_video_bg.jpg' %})">#}
+                {#                        <a href="www.youtube.com/watch?v=_TI26foIVy0" class="play_video_btn popup-video">#}
+                {#                            <i class="fal fa-play"></i>#}
+                {#                        </a>#}
+                {#                    </div>#}
+                {#                </div>#}
+            </div>
+        </div>
+    </section> <!-- /.Call to Action -->
+
+    <!--
+    =============================================
+        Our Services
+    ==============================================
+    -->
+    <section class="our-services pt-120 pb-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <svg class="icon-shape"
+                                    {#                                 xmlns="http://www.w3.org/2000/svg"#}
+                                    {#                                 xmlns:xlink="http://www.w3.org/1999/xlink"#}
+                                 width="72px" height="81px">
+                                <path fill-rule="evenodd" fill="rgb(242, 243, 245)"
+                                      d="M0.814,60.751 L0.814,20.254 L36.005,0.005 L71.195,20.254 L71.195,60.751 L36.005,81.000 L0.814,60.751 Z"/>
+                            </svg>
+                            <div class="service-shape-icon">
+                                <img src="{% static 'assets/img/icons/building.png' %}" alt="">
+                            </div>
+                        </div>
+                        <h3>Заключение договора</h3>
+                        <p>Перед началом производства ворот мы заключаем с вами договор, а так же производим нужные нам замеры.</p>
+                    </div> <!-- /.single-service -->
+                </div> <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <svg class="icon-shape"
+                                    {#                                 xmlns="http://www.w3.org/2000/svg"#}
+                                    {#                                 xmlns:xlink="http://www.w3.org/1999/xlink"#}
+                                 width="72px" height="81px">
+                                <path fill-rule="evenodd" fill="rgb(242, 243, 245)"
+                                      d="M0.814,60.751 L0.814,20.254 L36.005,0.005 L71.195,20.254 L71.195,60.751 L36.005,81.000 L0.814,60.751 Z"/>
+                            </svg>
+                            <div class="service-shape-icon">
+                                <img src="{% static 'assets/img/icons/cap.png' %}" alt="">
+                            </div>
+                        </div>
+                        <h3>Производство</h3>
+                        <p>Далее ваш заказ отправляется в производство где изготавливается качественный каркас ворот,
+                            по желанию выполняется полимерное покрытие.</p>
+                    </div> <!-- /.single-service -->
+                </div> <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <svg class="icon-shape"
+                                    {#                                 xmlns="http://www.w3.org/2000/svg"#}
+                                    {#                                 xmlns:xlink="http://www.w3.org/1999/xlink"#}
+                                 width="72px" height="81px">
+                                <path fill-rule="evenodd" fill="rgb(242, 243, 245)"
+                                      d="M0.814,60.751 L0.814,20.254 L36.005,0.005 L71.195,20.254 L71.195,60.751 L36.005,81.000 L0.814,60.751 Z"/>
+                            </svg>
+                            <div class="service-shape-icon">
+                                <img src="{% static 'assets/img/icons/carry.png' %}" alt="">
+                            </div>
+                        </div>
+                        <h3>Доставка на объект</h3>
+                        <p>Мы доставляем наши ворота, а так же комплектующие для монтажа и заполнения каркаса ворот, итальянскую автоматику по всей Беларуси. </p>
+                    </div> <!-- /.single-service -->
+                </div> <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <svg class="icon-shape"
+                                    {#                                 xmlns="http://www.w3.org/2000/svg"#}
+                                    {#                                 xmlns:xlink="http://www.w3.org/1999/xlink"#}
+                                 width="72px" height="81px">
+                                <path fill-rule="evenodd" fill="rgb(242, 243, 245)"
+                                      d="M0.814,60.751 L0.814,20.254 L36.005,0.005 L71.195,20.254 L71.195,60.751 L36.005,81.000 L0.814,60.751 Z"/>
+                            </svg>
+                            <div class="service-shape-icon">
+                                <img src="{% static 'assets/img/icons/motor.png' %}" alt="">
+                            </div>
+                        </div>
+                        <h3>Подготовка перед монтажными работами</h3>
+                        <p>Заливаем бетонное основание для откатных ворот, либо устанавливаем столбы для распашных ворот и калитки.</p>
+                    </div> <!-- /.single-service -->
+                </div> <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <svg class="icon-shape"
+                                    {#                                 xmlns="http://www.w3.org/2000/svg"#}
+                                    {#                                 xmlns:xlink="http://www.w3.org/1999/xlink"#}
+                                 width="72px" height="81px">
+                                <path fill-rule="evenodd" fill="rgb(242, 243, 245)"
+                                      d="M0.814,60.751 L0.814,20.254 L36.005,0.005 L71.195,20.254 L71.195,60.751 L36.005,81.000 L0.814,60.751 Z"/>
+                            </svg>
+                            <div class="service-shape-icon">
+                                <img src="{% static 'assets/img/icons/wheel.png' %}" alt="">
+                            </div>
+                        </div>
+                        <h3>Монтаж</h3>
+                        <p>Производим монтаж откатных любо распашных ворот с автоматикой и калиткой</p>
+                    </div> <!-- /.single-service -->
+                </div> <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <svg class="icon-shape"
+                                    {#                                 xmlns="http://www.w3.org/2000/svg"#}
+                                    {#                                 xmlns:xlink="http://www.w3.org/1999/xlink"#}
+                                 width="72px" height="81px">
+                                <path fill-rule="evenodd" fill="rgb(242, 243, 245)"
+                                      d="M0.814,60.751 L0.814,20.254 L36.005,0.005 L71.195,20.254 L71.195,60.751 L36.005,81.000 L0.814,60.751 Z"/>
+                            </svg>
+                            <div class="service-shape-icon">
+                                <img src="{% static 'assets/img/icons/dil.png' %}" alt="">
+                            </div>
+                        </div>
+                        <h3>Сдача объекта</h3>
+                        <p>Вы принимаете все работы, проводим инструктаж по пользованию и обслуживанию.</p>
+                    </div> <!-- /.single-service -->
+                </div> <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+            </div>
+        </div>
+    </section> <!-- /.our-services -->
+
+{% endblock %}

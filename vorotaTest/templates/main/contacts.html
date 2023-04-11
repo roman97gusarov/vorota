@@ -1,0 +1,119 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block title %}<title>Контакты</title>{% endblock %}
+
+
+{% block content %}
+
+    <section class="page-banner-wrap bg-contain bg-bottom d-flex align-items-center"
+             style="background-image: url('{% static 'assets/img/page_banner_bg.png' %}')">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="page-banner">
+                        <span>Связаться с нами</span>
+                        <h2>Получить Консультацию</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- /.page-banner-wrap -->
+
+    <div class="col-lg-10 offset-lg-1 col-12 text-center">
+        <div class="what-we-do-title">
+            <br>
+            <br>
+            <h2>Свяжитесь с нами</h2>
+            <h4>Если вам нужна консультация вы можете связать с нами по телефонам или написать в форму ниже. Мы
+                постараемся ответить вам как можно скорее.</h4>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+    <!--
+    =============================================
+        Contact Info Section
+    ==============================================
+    -->
+    <section class="contact-page-wrap section-padding">
+        <div class="container contact-deatils">
+            <div class="row text-center">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-contact-details">
+                        <h3>Контакты</h3>
+                        <h5><a href="tel:+375295262070">+375 29 526 20 70</a></h5>
+                        <h5><a href="tel:+375296104140">+375 29 610 41 40</a></h5>
+                    </div>
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="single-contact-details">
+                                        <h3>Instagram</h3>
+                                        <h5><a href="https://instagram.com/axeltech_minsk?igshid=YmMyMTA2M2Y=">axeltech_minsk</a></h5>
+                                    </div>
+                                </div> <!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-contact-details">
+                        <h3>Email</h3>
+                        <h5>axeltech@gmailcom</h5>
+                    </div>
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+            </div>
+        </div>
+    </section> <!-- /.contact-page-wrap section-padding -->
+
+
+    <!--
+    =============================================
+       Google Map Section
+    ==============================================
+    -->
+
+    <!-- /.google-map-wrap -->
+
+
+    <!--
+    =============================================
+        Contact Info Section
+    ==============================================
+    -->
+    <section class="contact-form-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-12">
+                    <div class="contact-form-main wow animated fadeInUp" data-wow-duration="2s">
+                        <form action="mail.php" id="contact-form" method="POST">
+                            <div class="row">
+                                <div class="form-group col-12  col-lg-4">
+                                    <input type="text" class="form-control" name="name" id="name"
+                                           placeholder="Имя">
+                                </div>
+                                <div class="form-group col-12  col-lg-4">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                           placeholder="Ваша почта">
+                                </div>
+                                <div class="form-group col-12  col-lg-4">
+                                    <input type="text" class="form-control" name="subject" id="subject"
+                                           placeholder="Телефон">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-12 col-md-12 col-sm-12 col-xl-12 message-box">
+                                    <textarea name="message" id="message" name="message"
+                                              placeholder="Сообщение"></textarea>
+                                </div>
+                            </div>
+                            <div class="send-message mt-35 text-center">
+                                <button type="submit" class="btn-send">Отправить</button>
+                            </div>
+                            <span class="form-message"></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- /.contact-form-section -->
+
+
+{% endblock %}

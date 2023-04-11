@@ -1,0 +1,352 @@
+{% extends "main/base.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+{% block title %}<title>Откатные ворота под ключ в Минске</title>{% endblock %}
+
+<body>
+
+
+{% block content %}
+    <!--
+    =============================================
+        Hero Section
+    ==============================================
+    -->
+    <section class="hero-slider-area">
+        <div class="hero-slides owl-carousel">
+            <div class="single-hero-slide gray-overlay bg-cover bg-top d-flex align-items-center"
+                 style="background-image: url('{% static 'assets/img/slide/vorota2.jpg' %}')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>Откатные Ворота</h1>
+                            <p>Пусть ваши мечты станут нашим проектом <br> Мы делаем не просто ворота, а людей
+                                счастливее.</p>
+                            <a href="otkatka" class="theme_btn get_start">Подребнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-img d-none d-lg-block">
+                </div>
+            </div> <!-- /.single-hero-slide -->
+            <div class="single-hero-slide gray-overlay bg-cover bg-top d-flex align-items-center"
+                 style="background-image: url('{% static 'assets/img/slide/vorota1.jpg' %}')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h1>Распашные Ворота</h1>
+                            <p>Пусть ваши мечты станут нашим проектом <br> Мы делаем не просто ворота, а людей
+                                счастливее.</p>
+                            <a href="/raspashka" class="theme_btn get_start">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- /.single-hero-slide -->
+            <div class="single-hero-slide gray-overlay bg-cover bg-top d-flex align-items-center"
+                 style="background-image: url('{% static 'assets/img/slide/vorota3.jpg' %}')">
+                <div class="container">
+                    <div class="row">
+                        <div class="slide-img slide-img-left d-none d-lg-block">
+                        </div>
+                        <div class="col-12 text-right">
+                            <h1>Гаражные Ворота</h1>
+                            <p>Пусть ваши мечты станут нашим проектом <br> Мы делаем не просто ворота, а людей
+                                счастливее.</p>
+                            <a href="/garage" class="theme_btn get_start">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- /.hero section -->
+
+
+    <!--
+    =============================================
+        What We Do
+    ==============================================
+    -->
+    <section class="what-we-do section-padding" id="whatwedo">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 col-12 text-center">
+                    <div class="what-we-do-title">
+                        <span>что мы делаем</span>
+                        <h2>Мы занимаемся производством ворот и установкой собственной продукции <span>под ключ.</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="single-we-do">
+                        <img src="{% static 'assets/img/wedo/shema_otkatnyh_vorot.jpg' %}" alt="">
+                        <h3>Откатные Ворота</h3>
+                        <p>Лучшее решение для наших широт, вы никогда не столкнетесь с проблемами зимой так как откатные
+                            ворота это полностью независимая конструкция
+                            <br>
+                            <br>
+                            <a href="/otkatka" class="theme_btn">Узнать Цену</a>
+                        </p>
+                    </div> <!-- /.single-we-do -->
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="single-we-do">
+                        <img src="{% static 'assets/img/wedo/shema_raspashka.jpg' %}" alt="">
+                        <h3>Распашные Ворота</h3>
+                        <p>Хорошая альтернатива откатным воротам, если расположение въезда не позволяют установить
+                            другую конструкцию ворот
+                            <br>
+                            <br>
+                            <br>
+                            <a href="/raspashka" class="theme_btn">Узнать Цену</a>
+                        </p>
+                    </div> <!-- /.single-we-do -->
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="single-we-do">
+                        <img src="{% static 'assets/img/wedo/shema_rolet.jpg' %}" alt="">
+                        <h3>Гаражные Ворота</h3>
+                        <p>Отличное решение для вашего гаража, гаражные ворота из сэндвич панели прекрасно справляются с
+                            теплоизоляцией, совсем не занимают место и удобны в эксплуатации
+                            <a href="/garage" class="theme_btn">Узнать Цену</a>
+                        </p>
+                    </div> <!-- /.single-we-do -->
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="single-we-do">
+                        <img src="{% static 'assets/img/wedo/shema_kalitka.jpg' %}" alt="">
+                        <h3>Калитка</h3>
+                        <p>Калитка в зависимости от конструкции может закрывать участок от посторонних взглядов или на
+                            оборот
+                            <br>
+                            <br>
+                            <br>
+                            <a href="/kalitka" class="theme_btn">Узнать Цену</a>
+                        </p>
+                    </div> <!-- /.single-we-do -->
+                </div> <!-- /.col-lg-3 col-sm-6 -->
+            </div>
+
+        </div>
+    </section> <!-- /.what-we-do -->
+
+    <!--
+    =============================================
+        FQ Ask Section
+    ==============================================
+    -->
+    <section class="fq-ask-wrap section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="fq-ask-banner">
+                        <img src="{% static 'assets/img/vorota_ask.jpg' %}" alt="fq-ask">
+                    </div>
+                </div> <!-- /.col-lg-6 col-sm-12 -->
+                <div class="col-lg-6 col-sm-12">
+                    <div class="theme-heading">
+                        <span></span>
+                        <h2>Часто задаваемые<br>Вопросы</h2>
+                    </div>
+                    <div class="frequent-ask-accrodian">
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne">
+                                            Почему мы лучшие?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                     data-parent="#accordion">
+                                    <div class="card-body">
+                                        Мы используем только качественные материалы, полимерное покрытие и Итальянскую
+                                        автоматику, которая проверена в наших условиях уже более 10 лет.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                            Какая гарантия?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                     data-parent="#accordion">
+                                    <div class="card-body">
+                                        Мы даем расширенною двухлетнюю гарантию на все виды ворот и автоматику
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                            Сроки исполнения
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                     data-parent="#accordion">
+                                    <div class="card-body">
+                                        От заключения договора до момента передачи вам ключей пройдет 2 недели, это
+                                        обосновано тем
+                                        что бетонное основание для откатных ворот должно хорошо высохнуть
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- /.col-lg-6 col-sm-12 -->
+            </div>
+        </div>
+    </section> <!-- /.fq-ask-wrap -->
+
+    <section class="funfact-countup section-padding">
+        <div class="container">
+            {#            <h1>Don’t Take <br>Our Word for It</h1>#}
+            <div class="row">
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-countup">
+                        <span>12</span>
+                        Лет опыта
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-countup">
+                        <span>928</span>
+                        Выполненых заказов
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-countup">
+                        <span>428</span>
+                        Откатных ворот
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-countup">
+                        <span>270</span>
+                        Распашных ворот
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="fact-img">
+                        <img src="{% static 'assets/img/funfact.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--
+    =============================================
+        Our Services
+    ==============================================
+    -->
+    <section class="our-services pt-120 pb-80" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <svg class="icon-shape"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 width="72px" height="81px">
+                                <path fill-rule="evenodd" fill="rgb(242, 243, 245)"
+                                      d="M0.814,60.751 L0.814,20.254 L36.005,0.005 L71.195,20.254 L71.195,60.751 L36.005,81.000 L0.814,60.751 Z"/>
+                            </svg>
+                            <div class="service-shape-icon">
+                                <img src="{% static 'assets/img/icons/building.png' %}" alt="">
+                            </div>
+                        </div>
+                        <h3>Выезд замерщика</h3>
+                        <p>Мы предлагаем бесплатный и оперативный выезд специалиста на объект для проведения замера,
+                            консультации и демонстрации образцов цвета.</p>
+                    </div> <!-- /.single-service -->
+                </div> <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <svg class="icon-shape"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 width="72px" height="81px">
+                                <path fill-rule="evenodd" fill="rgb(242, 243, 245)"
+                                      d="M0.814,60.751 L0.814,20.254 L36.005,0.005 L71.195,20.254 L71.195,60.751 L36.005,81.000 L0.814,60.751 Z"/>
+                            </svg>
+                            <div class="service-shape-icon">
+                                <img src="{% static 'assets/img/icons/wheel.png' %}" alt="">
+                            </div>
+                        </div>
+                        <h3>Собственное производство</h3>
+                        <p>У нас собственное производсво на котором выполняется изготовление, и полимерное покрытие
+                            нашей продукции</p>
+                    </div> <!-- /.single-service -->
+                </div> <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <svg class="icon-shape"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 width="72px" height="81px">
+                                <path fill-rule="evenodd" fill="rgb(242, 243, 245)"
+                                      d="M0.814,60.751 L0.814,20.254 L36.005,0.005 L71.195,20.254 L71.195,60.751 L36.005,81.000 L0.814,60.751 Z"/>
+                            </svg>
+                            <div class="service-shape-icon">
+                                <img src="{% static 'assets/img/icons/dil.png' %}" alt="">
+                            </div>
+                        </div>
+                        <h3>Монтаж под ключ</h3>
+                        <p>Наши специалисты проведут качественный монтаж и найдут решения для любых нестандартных
+                            вариантов</p>
+                    </div> <!-- /.single-service -->
+                </div> <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+            </div>
+        </div>
+    </section> <!-- /.our-services -->
+
+
+    <!--
+    =============================================
+        Call To Action Section
+    ==============================================
+    -->
+    <!--
+    =============================================
+        Portoflio Section
+    ==============================================
+    -->
+
+    <!--
+    =============================================
+        Blog Section
+    ==============================================
+    -->
+
+    <!--
+    =============================================
+        Contact Info Section
+    ==============================================
+    -->
+
+
+{% endblock %}
+
+</div>
+</body>
+</html>
